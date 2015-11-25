@@ -145,6 +145,7 @@ MonoBehaviour:
   lateUpdateAvatars: 0
   smoothing: 1
   useBoneOrientationConstraints: 0
+  allowTurnArounds: 0
   allowedHandRotations: 1
   avatarControllers: []
   playerCalibrationPose: 0

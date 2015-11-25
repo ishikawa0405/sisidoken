@@ -275,7 +275,9 @@ MonoBehaviour:
   playerIndex: -1
   foregroundCamera: {fileID: 1551283661}
   colorCameraResolution: 1
-  defaultColor: {}
+  defaultColor:
+    serializedVersion: 2
+    rgba: 4282400832
   debugText: {fileID: 990189646}
 --- !u!114 &762920938
 MonoBehaviour:

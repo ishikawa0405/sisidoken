@@ -1564,8 +1564,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f828727d4cfb7a4b8984b4e0310ae67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveVertically: 1
-  MirroredMovement: 1
+  playerIndex: 0
+  verticalMovement: 1
+  mirroredMovement: 0
+  moveRate: 1
   Hip_Center: {fileID: 100006}
   Spine: {fileID: 100042}
   Neck: {fileID: 100022}
@@ -1591,8 +1593,8 @@ MonoBehaviour:
   Thumb_Left: {fileID: 100046}
   Hand_Tip_Right: {fileID: 100044}
   Thumb_Right: {fileID: 100030}
-  SkeletonLine: {fileID: 12000000, guid: 85ff23489b1399e468f2c6fafe1e63ac, type: 2}
-  DebugLine: {fileID: 12000000, guid: db0437ba8ecaf7a44833b56ad5858ecd, type: 2}
+  skeletonLine: {fileID: 0}
+  debugLine: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

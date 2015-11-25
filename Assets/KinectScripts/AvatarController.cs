@@ -144,6 +144,10 @@ public class AvatarController : MonoBehaviour
 	// Update the avatar each frame.
     public void UpdateAvatar(Int64 UserID)
     {	
+		Debug.Log (bones[4].transform.position);
+		if (bones [4].transform.position.y < 2.8) {
+			gameObject.transform.Translate(0.0f,50.0f,0.0f);
+		}
 		if(!gameObject.activeInHierarchy) 
 			return;
 
@@ -242,6 +246,7 @@ public class AvatarController : MonoBehaviour
 	// Apply the rotations tracked by kinect to the joints.
 	protected void TransformBone(Int64 userId, KinectInterop.JointType joint, int boneIndex, bool flip)
     {
+
 		Transform boneTransform = bones[boneIndex];
 		if(boneTransform == null || kinectManager == null)
 			return;
@@ -415,8 +420,8 @@ public class AvatarController : MonoBehaviour
 		
 		Transform transRightUarm = animator.GetBoneTransform(HumanBodyBones.RightUpperArm);
 		Transform transRightLarm = animator.GetBoneTransform(HumanBodyBones.RightLowerArm);
-		Transform transRightHand = animator.GetBoneTransform(HumanBodyBones.RightHand);
-		
+		Transform transRightHand = animator.GetBoneTransform (HumanBodyBones.RightHand);
+
 		if(transRightUarm != null && transRightLarm != null)
 		{
 			Vector3 vUarmRightDir = transRightLarm.position - transRightUarm.position;
@@ -581,7 +586,7 @@ public class AvatarController : MonoBehaviour
 		{1, HumanBodyBones.Spine},
 //        {2, HumanBodyBones.Chest},
 		{3, HumanBodyBones.Neck},
-//		{4, HumanBodyBones.Head},
+  	 	{4, HumanBodyBones.Head},
 		
 		{5, HumanBodyBones.LeftUpperArm},
 		{6, HumanBodyBones.LeftLowerArm},
@@ -645,7 +650,7 @@ public class AvatarController : MonoBehaviour
 		{23, KinectInterop.JointType.AnkleRight},
 		{24, KinectInterop.JointType.FootRight},
 	};
-	
+
 	protected readonly Dictionary<int, List<KinectInterop.JointType>> specIndex2JointMap = new Dictionary<int, List<KinectInterop.JointType>>
 	{
 		{25, new List<KinectInterop.JointType> {KinectInterop.JointType.ShoulderLeft, KinectInterop.JointType.SpineShoulder} },

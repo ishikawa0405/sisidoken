@@ -144,6 +144,7 @@ MonoBehaviour:
   lateUpdateAvatars: 0
   smoothing: 1
   useBoneOrientationConstraints: 1
+  allowTurnArounds: 0
   allowedHandRotations: 1
   avatarControllers: []
   playerCalibrationPose: 0
@@ -551,7 +552,6 @@ MonoBehaviour:
   - {fileID: 2005183974}
   - {fileID: 501767832}
   - {fileID: 1960111040}
-  isBehindUser: 0
 --- !u!1 &1518493331
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerIndex: 0
-  gestureDatabase: 7365617465642e676264
+  gestureDatabase: seated.gbd
   gestureNames: []
   minConfidence: .100000001
   visualGestureListeners: []

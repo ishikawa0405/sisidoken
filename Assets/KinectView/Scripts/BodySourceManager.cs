@@ -67,27 +67,4 @@ public class BodySourceManager : MonoBehaviour
             _Sensor = null;
         }
     }
-
-
-
-
- 
-
-public KinectSensor Sensor
-
-{
-
-  get
-
-  {
-
-    return _Sensor;
-
-  }
-
-} 
-
 }
-
-
- 

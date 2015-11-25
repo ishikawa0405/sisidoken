@@ -705,6 +705,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   guiWindowRect:
+    serializedVersion: 2
     x: -140
     y: 40
     width: 140

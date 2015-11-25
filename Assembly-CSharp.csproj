@@ -45,6 +45,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BoneTransform.cs" />
      <Compile Include="Assets\KinectDemos\ColliderDemo\Scripts\DepthImageViewer.cs" />
      <Compile Include="Assets\KinectDemos\ColliderDemo\Scripts\EggMover.cs" />
      <Compile Include="Assets\KinectDemos\ColliderDemo\Scripts\EggSpawner.cs" />
@@ -118,12 +119,13 @@
      <Compile Include="Assets\KinectView\Scripts\InfraredSourceManager.cs" />
      <Compile Include="Assets\KinectView\Scripts\InfraredSourceView.cs" />
      <Compile Include="Assets\KinectView\Scripts\MultiSourceManager.cs" />
-     <Compile Include="Assets\Scripts\ColorBodySourceView.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
      <Compile Include="Assets\UnityChan\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+     <Compile Include="Assets\boneinfo.cs" />
+     <Compile Include="Assets\unitytyaninfo.cs" />
      <None Include="Assets\Resources\BlurShader.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
