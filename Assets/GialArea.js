@@ -8,6 +8,6 @@ function Start () {
 
 function OnTriggerEnter(col : Collider) {
     if(col.gameObject.tag =="Player"){
-        goal = true;
+        Application.LoadLevel("prototipe1");
     }
 }

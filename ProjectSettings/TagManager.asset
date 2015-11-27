@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Gial Area
+  - stop1
+  - unitychan 1
+  - Cubee
+  - unitychan
   layers:
   - Default
   - TransparentFX
