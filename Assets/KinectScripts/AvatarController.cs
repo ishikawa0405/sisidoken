@@ -15,6 +15,9 @@ using System.Text;
 [RequireComponent(typeof(Animator))]
 public class AvatarController : MonoBehaviour
 {	
+
+	public GameObject refObj;
+
 	[Tooltip("Index of the player, tracked by this component. 0 means the 1st player, 1 - the 2nd one, 2 - the 3rd one, etc.")]
 	public int playerIndex = 0;
 	
@@ -67,7 +70,7 @@ public class AvatarController : MonoBehaviour
 	
 	// private instance of the KinectManager
 	protected KinectManager kinectManager;
-
+	
 
 	// returns the number of bone transforms (array length)
 	public int GetBoneTransformCount()
@@ -146,7 +149,11 @@ public class AvatarController : MonoBehaviour
     {	
 		Debug.Log (bones[4].transform.position);
 		if (bones [4].transform.position.y < 2.8) {
-			gameObject.transform.Translate(0.0f,50.0f,0.0f);
+			Move_Test CubeTest = refObj.GetComponent<Move_Test>();
+			CubeTest.Move();
+		} else {
+			Move_Test CubeTest = refObj.GetComponent<Move_Test>();
+			CubeTest.Move2();
 		}
 		if(!gameObject.activeInHierarchy) 
 			return;

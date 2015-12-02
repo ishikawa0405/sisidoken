@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\KinectScripts\AvatarController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Move_Test.cs">
     <Files>
-      <File FileName="Assets\KinectScripts\AvatarController.cs" Line="149" Column="42" />
+      <File FileName="Assets\KinectScripts\AvatarController.cs" Line="153" Column="20" />
+      <File FileName="Assets\Move_Test.cs" Line="8" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
