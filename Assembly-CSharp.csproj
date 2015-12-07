@@ -45,31 +45,122 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BoneTransform.cs" />
+     <Compile Include="Assets\COMP.cs" />
+     <Compile Include="Assets\KinectScripts\AvatarController.cs" />
+     <Compile Include="Assets\KinectScripts\AvatarControllerClassic.cs" />
+     <Compile Include="Assets\KinectScripts\BackgroundRemovalManager.cs" />
+     <Compile Include="Assets\KinectScripts\Cubeman\CubemanController.cs" />
+     <Compile Include="Assets\KinectScripts\FacetrackingManager.cs" />
+     <Compile Include="Assets\KinectScripts\Filters\BoneOrientationsConstraint.cs" />
+     <Compile Include="Assets\KinectScripts\Filters\JointPositionsFilter.cs" />
+     <Compile Include="Assets\KinectScripts\InteractionManager.cs" />
+     <Compile Include="Assets\KinectScripts\Interfaces\DepthSensorInterface.cs" />
+     <Compile Include="Assets\KinectScripts\Interfaces\Kinect1Interface.cs" />
+     <Compile Include="Assets\KinectScripts\Interfaces\Kinect2Interface.cs" />
+     <Compile Include="Assets\KinectScripts\Interfaces\OpenNI2Interface.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\ColliderDemo\Scripts\DepthImageViewer.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\ColliderDemo\Scripts\EggMover.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\ColliderDemo\Scripts\EggSpawner.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\ColliderDemo\Scripts\HandColorOverlayer.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\ColliderDemo\Scripts\JumpTrigger.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\FaceTrackingDemo\Scripts\ModelFaceController.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\FaceTrackingDemo\Scripts\ModelHatController.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\FaceTrackingDemo\Scripts\SetBackgroundImage.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\FaceTrackingDemo\Scripts\SetBackgroundRemovalImage.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\FaceTrackingDemo\Scripts\SetFaceTexture.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\FittingRoomDemo\Scripts\AvatarScaler.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\FittingRoomDemo\Scripts\ModelSelector.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\FittingRoomDemo\Scripts\OverlayController.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\GesturesDemo\Scripts\CubeGestureListener.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\GesturesDemo\Scripts\CubePresentationScript.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\GesturesDemo\Scripts\ModelGestureListener.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\GesturesDemo\Scripts\ModelPresentationScript.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\InteractionDemo\Scripts\GrabDropScript.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\InteractionDemo\Scripts\GrabRotateScript.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\InteractionDemo\Scripts\GuiWindowScript.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\MultiSceneDemo\Scripts\LoadFirstLevel.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\MultiSceneDemo\Scripts\LoadLevelWithDelay.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\MultiSceneDemo\Scripts\LocateAvatarsAndGestureListeners.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\OverlayDemo\Scripts\HandOverlayer.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\OverlayDemo\Scripts\JointOverlayer.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\OverlayDemo\Scripts\LinePainter.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\OverlayDemo\Scripts\SkeletonOverlayer.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\RecorderDemo\Scripts\KinectPlayerController.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\RecorderDemo\Scripts\KinectRecorderPlayer.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\SpeechRecognitionDemo\Scripts\BotControlScript.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\SpeechRecognitionDemo\Scripts\GameControlScript.cs" />
+     <Compile Include="Assets\KinectScripts\KinectDemos\SpeechRecognitionDemo\Scripts\ThirdPersonCamera.cs" />
+     <Compile Include="Assets\KinectScripts\KinectGestures.cs" />
+     <Compile Include="Assets\KinectScripts\KinectInterop.cs" />
+     <Compile Include="Assets\KinectScripts\KinectManager.cs" />
+     <Compile Include="Assets\KinectScripts\PortraitBackground.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\FollowUserRotation.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\GetFacePointsDemo.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\GetJointPositionDemo.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\JointOrientationView.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\JointPositionView.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\K2SensorChecker.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\MouseControl.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\PointCloudView.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\RaiseHandListener.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\SimpleBackgroundRemoval.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\SimpleGestureListener.cs" />
+     <Compile Include="Assets\KinectScripts\Samples\SimpleVisualGestureListener.cs" />
+     <Compile Include="Assets\KinectScripts\SpeechErrorHandler.cs" />
+     <Compile Include="Assets\KinectScripts\SpeechManager.cs" />
+     <Compile Include="Assets\KinectScripts\VisualGestureManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\BodySourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\BodySourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\ColorSourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\ColorSourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\DepthSourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\DepthSourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\DisableOnStart.cs" />
+     <Compile Include="Assets\KinectView\Scripts\InfraredSourceManager.cs" />
+     <Compile Include="Assets\KinectView\Scripts\InfraredSourceView.cs" />
+     <Compile Include="Assets\KinectView\Scripts\MultiSourceManager.cs" />
+     <Compile Include="Assets\Lightmove.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
      <Compile Include="Assets\UnityChan\Scripts\RandomWind.cs" />
      <Compile Include="Assets\UnityChan\Scripts\SceneLoader.cs" />
-     <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
      <Compile Include="Assets\Walk_unitychan.cs" />
+     <Compile Include="Assets\boneinfo.cs" />
      <Compile Include="Assets\camerawork.cs" />
      <Compile Include="Assets\dontdestoroi.cs" />
+     <Compile Include="Assets\feed.cs" />
      <Compile Include="Assets\kirikae1.cs" />
      <Compile Include="Assets\kirikae2.cs" />
      <Compile Include="Assets\kirikae3.cs" />
+     <Compile Include="Assets\terasurware\Utility\NotificationObject.cs" />
+     <Compile Include="Assets\terasurware\Utility\ObjectPool.cs" />
+     <Compile Include="Assets\terasurware\Utility\PersistentAmongPlayModeAttribute.cs" />
+     <Compile Include="Assets\terasurware\Utility\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\unitytyaninfo.cs" />
+     <None Include="Assets\Resources\BlurShader.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+     <None Include="Assets\Resources\SpeechGrammar.grxml.txt" />
+     <None Include="Assets\Resources\Color2DepthShader.shader" />
      <None Include="Assets\UnityChan\license.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+     <None Include="Assets\KinectScripts\KinectDemos\RecorderDemo\Resources\PlayerGrammar.grxml.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+     <None Include="Assets\Resources\Depth2ColorShader.shader" />
+     <None Include="Assets\Resources\DepthShader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
      <None Include="Assets\UnityChan\Stage\Shader\AlphaMask.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+     <None Include="Assets\Resources\Erode.shader" />
+     <None Include="Assets\Resources\BodyShader.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+     <None Include="Assets\Resources\Dilate.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
@@ -85,6 +176,12 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="OpenCvSharp">
+ <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
