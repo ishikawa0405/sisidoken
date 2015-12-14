@@ -15,7 +15,7 @@ public class kirikae2 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		myTimer += Time.deltaTime;
-		if(myTimer >=7.0){{
+		if(myTimer >=6.5){{
 			Application.LoadLevel("goal");
 			//DontDestroyOnLoad();
 		}
