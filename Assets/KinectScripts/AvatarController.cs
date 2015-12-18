@@ -15,9 +15,10 @@ using System.Text;
 [RequireComponent(typeof(Animator))]
 public class AvatarController : MonoBehaviour
 {	
-
+	bool hantei = false;
+	float Count = 0.0f;
 	public GameObject refObj;
-
+	float myTimer = 0.0f;
 	[Tooltip("Index of the player, tracked by this component. 0 means the 1st player, 1 - the 2nd one, 2 - the 3rd one, etc.")]
 	public int playerIndex = 0;
 	
@@ -143,18 +144,26 @@ public class AvatarController : MonoBehaviour
 		// if parent transform uses physics
 		isRigidBody = gameObject.GetComponent<Rigidbody>();
 	}
-	
 	// Update the avatar each frame.
     public void UpdateAvatar(Int64 UserID)
     {	
 		Debug.Log (bones[4].transform.position);
 		if (bones [4].transform.position.y < 2.8) {
-			Move_Test CubeTest = refObj.GetComponent<Move_Test>();
-			CubeTest.Move();
+			if (hantei == false) 
+			{
+				hantei = true;
+				Move_Test CubeTest = refObj.GetComponent<Move_Test>();
+				CubeTest.Sound();
+				CubeTest.Move();
+				//CubeTest.SoundStop();
+			}
+			Move_Test CubeTest2 = gameObject.GetComponent<Move_Test>();
+			CubeTest2.Stop ();
 		} else {
 			Move_Test CubeTest = refObj.GetComponent<Move_Test>();
 			CubeTest.Move2();
 		}
+
 		if(!gameObject.activeInHierarchy) 
 			return;
 
