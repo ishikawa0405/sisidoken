@@ -41,7 +41,15 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
 																																																																																																											GlobalSection(MonoDevelopProperties) = preSolution
+=======
+<<<<<<< HEAD
+																																																																																																																					GlobalSection(MonoDevelopProperties) = preSolution
+=======
+																																																																																																																			GlobalSection(MonoDevelopProperties) = preSolution
+>>>>>>> parent of 37d1a7f... nishiocommit
+>>>>>>> b291fd2becd33dd8df5362f8cc9bd6d2171c1974
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

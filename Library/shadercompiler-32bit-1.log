@@ -1,7 +1,21 @@
+<<<<<<< HEAD
 Base path: C:/Program Files/Unity/Editor/Data
 Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-2644
+=======
+<<<<<<< HEAD
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-7688
+>>>>>>> b291fd2becd33dd8df5362f8cc9bd6d2171c1974
 Cmd: getPlatforms
 Unhandled exception: Readfile from pipe failed. GLE=パイプは終了しました。
 
 
 Quitting shader compiler process
+<<<<<<< HEAD
+=======
+=======
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-9476
+Cmd: getPlatforms
+>>>>>>> parent of 37d1a7f... nishiocommit
+>>>>>>> b291fd2becd33dd8df5362f8cc9bd6d2171c1974
