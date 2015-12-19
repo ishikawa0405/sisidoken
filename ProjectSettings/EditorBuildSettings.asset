@@ -13,3 +13,5 @@ EditorBuildSettings:
     path: "Assets/\u5ECA\u4E0B2.unity"
   - enabled: 1
     path: Assets/goal.unity
+  - enabled: 1
+    path: Assets/room.unity

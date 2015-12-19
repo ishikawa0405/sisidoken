@@ -16,7 +16,7 @@ public class kirikae2 : MonoBehaviour {
 	void Update () {
 		myTimer += Time.deltaTime;
 		if(myTimer >=6.5){{
-			Application.LoadLevel("goal");
+			Application.LoadLevel("room");
 			//DontDestroyOnLoad();
 		}
 	}

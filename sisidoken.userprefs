@@ -1,9 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\KinectScripts\AvatarController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\kirikae1.cs">
     <Files>
-      <File FileName="Assets\KinectScripts\AvatarController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Move_Test.cs" Line="1" Column="1" />
+      <File FileName="Assets\kirikae1.cs" Line="18" Column="18" />
+      <File FileName="Assets\kirikae2.cs" Line="1" Column="1" />
+      <File FileName="Assets\BattleCamera.cs" Line="1" Column="1" />
+      <File FileName="Assets\taich.cs" Line="1" Column="1" />
+      <File FileName="Assets\Lightmove.cs" Line="1" Column="1" />
+      <File FileName="Assets\goalComent.cs" Line="1" Column="1" />
+      <File FileName="Assets\kirikae3.cs" Line="19" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
