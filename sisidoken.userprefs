@@ -1,8 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Desktop\基礎プロB\unity入れ\廊下\Assets\sitdown.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\KinectScripts\AvatarController.cs">
     <Files>
-      <File FileName="..\..\..\Desktop\基礎プロB\unity入れ\廊下\Assets\sitdown.cs" Line="12" Column="29" />
+      <File FileName="Assets\Sound.cs" Line="16" Column="4" />
+      <File FileName="Assets\ShitDown.cs" Line="24" Column="4" />
+      <File FileName="Assets\KinectScripts\AvatarController.cs" Line="168" Column="18" />
+      <File FileName="Assets\taich.cs" Line="1" Column="1" />
+      <File FileName="Assets\kirikae1.cs" Line="22" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

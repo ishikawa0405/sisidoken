@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SceneLoadScript : MonoBehaviour{
+public class NewBehaviourScript : MonoBehaviour {
+
+    // Use this for initialization
     public void SceneLoad()
     {
-        Application.LoadLevel("title2");
+        Application.LoadLevel("廊下");
     }
 }
+
