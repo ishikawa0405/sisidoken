@@ -6,7 +6,6 @@ public class taich : MonoBehaviour {
 	float myTimer = 0.0f;
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
@@ -16,7 +15,7 @@ public class taich : MonoBehaviour {
 				this.GetComponent<Text>().text = "だいいちもん!";
 			}
 		if(myTimer >=7){{
-				this.GetComponent<Text>().text = "Stand up";
+				this.GetComponent<Text>().text = "Sit Down!";
 			}
 		if(myTimer >=10){{
 				this.GetComponent<Text>().text = "ポーズをとろう!";

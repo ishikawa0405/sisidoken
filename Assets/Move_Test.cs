@@ -10,10 +10,10 @@ public class Move_Test : MonoBehaviour {
 		audioSource.clip = audioClip1;
 	}
 	public void Move () {
-		iTween.MoveTo(gameObject,new Vector3(0.3f, 2.5f, -7.57f), 0.5f);
+		iTween.MoveTo(gameObject,new Vector3(-1.08f, 2.58f, -0.15f), 0.5f);
 	}
 	public void Move2(){
-		iTween.MoveTo(gameObject,new Vector3(0, 100, -8), 0.5f);
+		iTween.MoveTo(gameObject,new Vector3(-1.08f, 8.99f, -0.15f), 0.5f);
 	}
 	public void Sound(){
 			audioSource.Play ();
