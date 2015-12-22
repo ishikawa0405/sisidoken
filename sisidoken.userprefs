@@ -1,14 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\kirikae1.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Desktop\基礎プロB\unity入れ\廊下\Assets\sitdown.cs">
     <Files>
-      <File FileName="Assets\kirikae1.cs" Line="18" Column="18" />
-      <File FileName="Assets\kirikae2.cs" Line="1" Column="1" />
-      <File FileName="Assets\BattleCamera.cs" Line="1" Column="1" />
-      <File FileName="Assets\taich.cs" Line="1" Column="1" />
-      <File FileName="Assets\Lightmove.cs" Line="1" Column="1" />
-      <File FileName="Assets\goalComent.cs" Line="1" Column="1" />
-      <File FileName="Assets\kirikae3.cs" Line="19" Column="26" />
+      <File FileName="..\..\..\Desktop\基礎プロB\unity入れ\廊下\Assets\sitdown.cs" Line="12" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
