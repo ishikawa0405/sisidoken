@@ -6,6 +6,6 @@ public class NewBehaviourScript1 : MonoBehaviour {
     // Use this for initialization
     public void SceneLoad()
     {
-        Application.LoadLevel("title2");
+        Application.LoadLevel("Explanation_Story");
     }
 }
