@@ -769,7 +769,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
-  m_AnchoredPosition: {x: -270, y: 0}
+  m_AnchoredPosition: {x: -270, y: 170}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: .5, y: .5}
 --- !u!114 &2131486640
@@ -803,7 +803,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093\u3068\u5927\u5192\u967A"
+  m_Text: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093\u3068\u3048\u3044\u3063\uFF01\u3048\u3044\uFF01\u30B4\u30FC\uFF01"
 --- !u!222 &2131486641
 CanvasRenderer:
   m_ObjectHideFlags: 0
