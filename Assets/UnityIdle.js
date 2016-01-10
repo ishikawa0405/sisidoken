@@ -14,7 +14,7 @@ function Start () {
 }*/
 function Update () {
 	myTimer += Time.deltaTime;
-	if(myTimer >=5.0){
+	if(myTimer >=5.2){
 	
 	GetComponent.<Animator>().Play("walk");
 	}

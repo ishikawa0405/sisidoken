@@ -1,12 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\KinectScripts\AvatarController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Ex2toMondai.cs">
     <Files>
-      <File FileName="Assets\Sound.cs" Line="16" Column="4" />
-      <File FileName="Assets\ShitDown.cs" Line="24" Column="4" />
-      <File FileName="Assets\KinectScripts\AvatarController.cs" Line="168" Column="18" />
-      <File FileName="Assets\taich.cs" Line="1" Column="1" />
-      <File FileName="Assets\kirikae1.cs" Line="22" Column="4" />
+      <File FileName="Assets\ExtoEx2.cs" Line="6" Column="1" />
+      <File FileName="Assets\NewBehaviourScript.cs" Line="7" Column="1" />
+      <File FileName="Assets\Ex2toMondai.cs" Line="8" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

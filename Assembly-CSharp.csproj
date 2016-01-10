@@ -48,6 +48,8 @@
      <Compile Include="Assets\BattleCamera.cs" />
      <Compile Include="Assets\BoneTransform.cs" />
      <Compile Include="Assets\COMP.cs" />
+     <Compile Include="Assets\Ex2toMondai.cs" />
+     <Compile Include="Assets\ExtoEx2.cs" />
      <Compile Include="Assets\KinectScripts\AvatarController.cs" />
      <Compile Include="Assets\KinectScripts\AvatarControllerClassic.cs" />
      <Compile Include="Assets\KinectScripts\BackgroundRemovalManager.cs" />
