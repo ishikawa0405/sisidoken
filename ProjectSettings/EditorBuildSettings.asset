@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Explanation_Story.unity
   - enabled: 0
     path: Assets/Explanation_Story2.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/explanation_Story1.unity
   - enabled: 0
     path: "Assets/\u5ECA\u4E0B.unity"
