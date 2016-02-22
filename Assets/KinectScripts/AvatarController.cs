@@ -15,9 +15,7 @@ using System.Text;
 [RequireComponent(typeof(Animator))]
 public class AvatarController : MonoBehaviour
 {	
-	bool hantei = false;
 	float Count = 0.0f;
-	public GameObject refObj;
 	float myTimer = 0.0f;
 	[Tooltip("Index of the player, tracked by this component. 0 means the 1st player, 1 - the 2nd one, 2 - the 3rd one, etc.")]
 	public int playerIndex = 0;
@@ -147,6 +145,7 @@ public class AvatarController : MonoBehaviour
 	// Update the avatar each frame.
     public void UpdateAvatar(Int64 UserID)
     {	
+		/*
 		Debug.Log (bones[4].transform.position);
 		if (bones [4].transform.position.y < 1.5) {
 			if (hantei == false) 
@@ -170,6 +169,7 @@ public class AvatarController : MonoBehaviour
 				//DontDestroyOnLoad();
 			}
 		}
+		*/
 
 		if(!gameObject.activeInHierarchy) 
 			return;

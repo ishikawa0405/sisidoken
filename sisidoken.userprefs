@@ -1,10 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Ex2toMondai.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SitDown.cs">
     <Files>
-      <File FileName="Assets\Ex2toMondai.cs" Line="11" Column="1" />
+      <File FileName="Assets\SitDown.cs" Line="1" Column="1" />
+      <File FileName="Assets\Ex2toMondai.cs" Line="1" Column="1" />
       <File FileName="Assets\ExtoEx2.cs" Line="1" Column="1" />
       <File FileName="Assets\NewBehaviourScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\KinectScripts\AvatarController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
