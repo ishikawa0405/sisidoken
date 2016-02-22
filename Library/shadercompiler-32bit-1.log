@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-6676
+Cmd: getPlatforms
+Unhandled exception: Readfile from pipe failed. GLE=パイプは終了しました。
+
+
+Quitting shader compiler process
+=======
 Base path: C:/Program Files/Unity/Editor/Data
 Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-10324
 Cmd: getPlatforms
@@ -41,3 +50,4 @@ Cmd: preprocess
   insize=1787 outsize=360 ok=1
 Cmd: preprocess
   insize=1149 outsize=1043 ok=1
+>>>>>>> origin/master

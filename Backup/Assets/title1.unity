@@ -187,7 +187,6 @@ GameObject:
   - 222: {fileID: 326532818}
   - 114: {fileID: 326532817}
   - 114: {fileID: 326532816}
-  - 114: {fileID: 326532821}
   - 114: {fileID: 326532820}
   m_Layer: 5
   m_Name: start
@@ -308,17 +307,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7a649f1d9e07c6041864a5b73bdeed70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &326532821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 326532815}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35c29ce0094e2bc458d68453bc3ba841, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1004211139
@@ -505,7 +493,7 @@ Transform:
   m_GameObject: {fileID: 1463627425}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 2}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 4.14192343, y: 4.18688583, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
