@@ -49,17 +49,10 @@
      <Compile Include="Assets\BattleCamera.cs" />
      <Compile Include="Assets\BoneTransform.cs" />
      <Compile Include="Assets\COMP.cs" />
+     <Compile Include="Assets\Collision_Detection.cs" />
      <Compile Include="Assets\Ex2toMondai.cs" />
      <Compile Include="Assets\ExtoEx2.cs" />
-     <Compile Include="Assets\Jump\K_Jump_Canvas.cs" />
-     <Compile Include="Assets\K_Change_question1.cs" />
-     <Compile Include="Assets\K_Change_question2.cs" />
-     <Compile Include="Assets\K_Change_question3.cs" />
-     <Compile Include="Assets\K_Change_question4.cs" />
-     <Compile Include="Assets\K_Rice_Canvas.cs" />
-     <Compile Include="Assets\K_Touch_Canvas.cs" />
-     <Compile Include="Assets\K_seen_ikou.cs" />
-     <Compile Include="Assets\K_seen_tamesi.cs" />
+     <Compile Include="Assets\Jump.cs" />
      <Compile Include="Assets\KinectScripts\AvatarController.cs" />
      <Compile Include="Assets\KinectScripts\AvatarControllerClassic.cs" />
      <Compile Include="Assets\KinectScripts\BackgroundRemovalManager.cs" />
@@ -129,10 +122,10 @@
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\NewBehaviourScript1.cs" />
      <Compile Include="Assets\NewBehaviourScript2.cs" />
-     <Compile Include="Assets\Rejoice_Camera.cs" />
+     <Compile Include="Assets\R_Touch.cs" />
+     <Compile Include="Assets\Raise_Left_Hand.cs" />
+     <Compile Include="Assets\ShitDown.cs" />
      <Compile Include="Assets\SitDown.cs" />
-     <Compile Include="Assets\SitDown\ShitDown.cs" />
-     <Compile Include="Assets\Sit_Down__Rejoice.cs" />
      <Compile Include="Assets\Sound.cs" />
      <Compile Include="Assets\Sound_room.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
@@ -150,7 +143,6 @@
      <Compile Include="Assets\kirikae1.cs" />
      <Compile Include="Assets\kirikae2.cs" />
      <Compile Include="Assets\kirikae3.cs" />
-     <Compile Include="Assets\seen_otamesi.cs" />
      <Compile Include="Assets\taich.cs" />
      <Compile Include="Assets\terasurware\Utility\NotificationObject.cs" />
      <Compile Include="Assets\terasurware\Utility\ObjectPool.cs" />
@@ -237,17 +229,23 @@
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F01\animation_list_all.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\Puppet\fbx_ctrl.xml" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
  <Reference Include="OpenCvSharp">
- <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
+ <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
