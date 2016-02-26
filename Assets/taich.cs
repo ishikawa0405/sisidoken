@@ -12,17 +12,17 @@ public class taich : MonoBehaviour {
 	void Update () {
 		myTimer += Time.deltaTime;
 		if(myTimer >=4){{
-				this.GetComponent<Text>().text = "だいいちもん!";
+				this.GetComponent<Text>().text = "もんだい!";
 			}
-		if(myTimer >=7){{
-				this.GetComponent<Text>().text = "Sit Down!";
+			if(myTimer >=6){{
+					this.GetComponent<Text>().text = "よくきいて♪♪";
+				}
+				if(myTimer >=8){{
+						this.GetComponent<Text>().text = "ポーズをとろう!";
+						
+					}
+				}
 			}
-		if(myTimer >=10){{
-				this.GetComponent<Text>().text = "ポーズをとろう!";
-
-}
-}
-}
-}	
-}
+		}	
+	}
 }
