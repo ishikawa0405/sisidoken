@@ -4,7 +4,7 @@ using System.Collections;
 public class SitDown : AvatarController {
 	bool hantei = false;
 	public GameObject refObj;
-	float myTimer = 0.0f;
+	float SitDown_myTimer = 0.0f;
 	// Use this for initialization
 	void Start () {
 	
@@ -29,8 +29,8 @@ public class SitDown : AvatarController {
 			CubeTest.Move2();
 		}
 		if(hantei == true){
-			myTimer += Time.deltaTime;
-			if(myTimer >=3){
+			SitDown_myTimer += Time.deltaTime;
+			if(SitDown_myTimer >=3){
 				Application.LoadLevel("廊下2");
 				//DontDestroyOnLoad();
 			}

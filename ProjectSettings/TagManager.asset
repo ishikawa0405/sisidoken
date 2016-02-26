@@ -6,6 +6,9 @@ TagManager:
   tags:
   - CubeTest
   - Cubee
+  - Apple
+  - stop1
+  - apple
   layers:
   - Default
   - TransparentFX

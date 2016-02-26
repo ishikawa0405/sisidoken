@@ -49,8 +49,10 @@
      <Compile Include="Assets\BattleCamera.cs" />
      <Compile Include="Assets\BoneTransform.cs" />
      <Compile Include="Assets\COMP.cs" />
+     <Compile Include="Assets\Collision_Detection.cs" />
      <Compile Include="Assets\Ex2toMondai.cs" />
      <Compile Include="Assets\ExtoEx2.cs" />
+     <Compile Include="Assets\Jump.cs" />
      <Compile Include="Assets\KinectScripts\AvatarController.cs" />
      <Compile Include="Assets\KinectScripts\AvatarControllerClassic.cs" />
      <Compile Include="Assets\KinectScripts\BackgroundRemovalManager.cs" />
@@ -120,6 +122,8 @@
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\NewBehaviourScript1.cs" />
      <Compile Include="Assets\NewBehaviourScript2.cs" />
+     <Compile Include="Assets\R_Touch.cs" />
+     <Compile Include="Assets\Raise_Left_Hand.cs" />
      <Compile Include="Assets\ShitDown.cs" />
      <Compile Include="Assets\SitDown.cs" />
      <Compile Include="Assets\Sound.cs" />
@@ -225,11 +229,17 @@
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F01\animation_list_all.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\Puppet\fbx_ctrl.xml" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="OpenCvSharp">
  <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>

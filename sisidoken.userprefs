@@ -1,12 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SitDown.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Collision_Detection.cs">
     <Files>
-      <File FileName="Assets\SitDown.cs" Line="1" Column="1" />
+      <File FileName="Assets\SitDown.cs" Line="14" Column="18" />
       <File FileName="Assets\Ex2toMondai.cs" Line="1" Column="1" />
       <File FileName="Assets\ExtoEx2.cs" Line="1" Column="1" />
       <File FileName="Assets\NewBehaviourScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\KinectScripts\AvatarController.cs" Line="1" Column="1" />
+      <File FileName="Assets\KinectScripts\AvatarController.cs" Line="16" Column="33" />
+      <File FileName="c:\GitHub\sisidoken\Assets\KinectScripts\Interfaces\Kinect2Interface.cs" Line="1" Column="1" />
+      <File FileName="Assets\Move_Test.cs" Line="1" Column="1" />
+      <File FileName="Assets\Jump.cs" Line="1" Column="1" />
+      <File FileName="Assets\Raise_Left_Hand.cs" Line="16" Column="48" />
+      <File FileName="Assets\R_Touch.cs" Line="4" Column="42" />
+      <File FileName="Assets\Collision_Detection.cs" Line="46" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

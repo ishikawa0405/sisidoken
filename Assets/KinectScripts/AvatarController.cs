@@ -15,8 +15,6 @@ using System.Text;
 [RequireComponent(typeof(Animator))]
 public class AvatarController : MonoBehaviour
 {	
-	float Count = 0.0f;
-	float myTimer = 0.0f;
 	[Tooltip("Index of the player, tracked by this component. 0 means the 1st player, 1 - the 2nd one, 2 - the 3rd one, etc.")]
 	public int playerIndex = 0;
 	
