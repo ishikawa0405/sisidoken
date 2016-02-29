@@ -1,4 +1,5 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\K_Change_question2.cs">
     <Files>
@@ -18,6 +19,13 @@
       <File FileName="Assets\K_Change_question3.cs" Line="25" Column="1" />
       <File FileName="Assets\K_Change_question2.cs" Line="25" Column="1" />
       <File FileName="Assets\K_Change_question1.cs" Line="24" Column="2" />
+=======
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Desktop\MusicGameChallenge\Assets\Scripts\Scene\Main\Target\TargetControl.cs">
+    <Files>
+      <File FileName="..\..\..\Desktop\MusicGameChallenge\Assets\Scripts\Scene\Main\TargetManager.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\Desktop\MusicGameChallenge\Assets\Scripts\Scene\Main\Target\TargetControl.cs" Line="15" Column="20" />
+>>>>>>> origin/master
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
