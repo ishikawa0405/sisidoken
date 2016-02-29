@@ -45,6 +45,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Apple_Cmera.cs" />
      <Compile Include="Assets\Avatar_Jump.cs" />
      <Compile Include="Assets\BattleCamera.cs" />
      <Compile Include="Assets\BoneTransform.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\K_Change_question4.cs" />
      <Compile Include="Assets\K_Rice_Canvas.cs" />
      <Compile Include="Assets\K_Touch_Canvas.cs" />
+     <Compile Include="Assets\K_Unity_voice.cs" />
      <Compile Include="Assets\K_seen_ikou.cs" />
      <Compile Include="Assets\K_seen_tamesi.cs" />
      <Compile Include="Assets\KinectScripts\AvatarController.cs" />
@@ -139,6 +141,7 @@
      <Compile Include="Assets\Sit_Down__Rejoice.cs" />
      <Compile Include="Assets\Sound.cs" />
      <Compile Include="Assets\Sound_room.cs" />
+     <Compile Include="Assets\Taich_Voice.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />

@@ -15,7 +15,7 @@ public class ShitDown : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		myTimer += Time.deltaTime;
-		if (myTimer >= 7) {
+		if (myTimer >= 6.5) {
 			if (flag == false) 
 			{
 				flag = true;

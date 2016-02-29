@@ -1,15 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\damage1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BattleCamera.cs">
     <Files>
-      <File FileName="Assets\Rejoice_Camera.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\Desktop\MusicGameChallenge\Assets\Scripts\Scene\Main\TargetManager.cs" Line="1" Column="1" />
-      <File FileName="..\..\..\Desktop\MusicGameChallenge\Assets\Scripts\Scene\Main\Target\TargetControl.cs" Line="1" Column="1" />
-      <File FileName="Assets\K_Change_question1.cs" Line="1" Column="1" />
-      <File FileName="Assets\K_Change_question2.cs" Line="25" Column="1" />
-      <File FileName="Assets\K_Change_question3.cs" Line="25" Column="1" />
-      <File FileName="Assets\damage1.cs" Line="19" Column="43" />
+      <File FileName="Assets\Move_Test.cs" Line="19" Column="24" />
+      <File FileName="Assets\Taich_Voice.cs" Line="1" Column="1" />
+      <File FileName="Assets\K_Unity_voice.cs" Line="1" Column="1" />
       <File FileName="Assets\Sound.cs" Line="1" Column="1" />
+      <File FileName="Assets\SitDown\ShitDown.cs" Line="1" Column="1" />
+      <File FileName="Assets\K_Rice_Canvas.cs" Line="1" Column="1" />
+      <File FileName="Assets\K_Touch_Canvas.cs" Line="28" Column="2" />
+      <File FileName="Assets\BattleCamera.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
