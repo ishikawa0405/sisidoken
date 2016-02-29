@@ -177,7 +177,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: m_Volume
-      value: .694999993
+      value: .521000028
       objectReference: {fileID: 0}
     - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: BypassReverbZones
@@ -185,7 +185,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: m_PlayOnAwake
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8220246, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: m_Enabled
@@ -193,6 +193,22 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8250044, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 118742, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9583174, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 563dd3416e638b44c853a74b5ffc70a1, type: 2}
+    - target: {fileID: 9583174, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: BypassListenerEffects
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

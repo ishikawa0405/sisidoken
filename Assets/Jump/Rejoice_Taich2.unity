@@ -85,22 +85,92 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &391771389 stripped
+--- !u!1 &1583380031 stripped
 GameObject:
-  m_PrefabParentObject: {fileID: 128186, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+  m_PrefabParentObject: {fileID: 158936, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
   m_PrefabInternal: {fileID: 1905289859}
---- !u!114 &391771397
+--- !u!82 &1583380034
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1583380031}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 47ac379e82bb8b9408a979fc2deb9a77, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1.23000002
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1583380035
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 391771389}
-  m_Enabled: 0
+  m_GameObject: {fileID: 1583380031}
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 51aaff6f4d861244b8bf027062b5bb8c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9b8fedbb278b590419e3a81c96f61948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DontDestroyEnabled: 0
+  audioClip1: {fileID: 0}
 --- !u!1 &1593025077
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +283,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: m_Volume
-      value: .588999987
+      value: .377000004
       objectReference: {fileID: 0}
     - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: BypassReverbZones
@@ -233,8 +303,41 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9583174, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 563dd3416e638b44c853a74b5ffc70a1, type: 2}
+    - target: {fileID: 9583174, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11413584, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: verticalMovement
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266386, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199588, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8220246, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: BypassReverbZones
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: Mute
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11413584, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
   m_IsPrefabParent: 0
