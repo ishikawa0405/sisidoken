@@ -85,6 +85,45 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1189994564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1189994566}
+  - 114: {fileID: 1189994565}
+  m_Layer: 0
+  m_Name: Change_question3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1189994565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1189994564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ef3b93e6130e114a8049fc0b4fca880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1189994566
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1189994564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.826065063, y: 2.4645679, z: -1.10239637}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
 --- !u!1001 &1329722665
 Prefab:
   m_ObjectHideFlags: 0
@@ -132,6 +171,7 @@ Prefab:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: ffaffcae6b788ee41a0e53ca5688ca0c, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 11405792, guid: 4e22b8ae5136474418ab2bd19a6a291f, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4e22b8ae5136474418ab2bd19a6a291f, type: 2}
   m_IsPrefabParent: 0

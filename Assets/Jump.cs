@@ -13,7 +13,7 @@ public class Jump : AvatarController {
 	// Update is called once per frame
 	void Update () {
 		Debug.Log (base.bones[4].transform.position);
-		if (base.bones [4].transform.position.y > 1.75) {
+		if (base.bones [4].transform.position.y > 2.15) {
 			if (hantei == false) 
 			{
 				hantei = true;
@@ -31,7 +31,7 @@ public class Jump : AvatarController {
 		if(hantei == true){
 			Jump_myTimer += Time.deltaTime;
 			if(Jump_myTimer >=3){
-				Application.LoadLevel("廊下2");
+				Application.LoadLevel("Rejoice_Taich2");
 				//DontDestroyOnLoad();
 			}
 		}

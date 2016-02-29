@@ -109,8 +109,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1593025078}
+  - 114: {fileID: 1593025079}
   m_Layer: 0
-  m_Name: Change
+  m_Name: Change_question2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -128,6 +129,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &1593025079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1593025077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd1e1bc726012b4ba339b5c989ea94d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1905289859
 Prefab:
   m_ObjectHideFlags: 0
@@ -223,6 +235,23 @@ Prefab:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 118742, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11413584, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: verticalMovement
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9583174, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 146710, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11413584, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
   m_IsPrefabParent: 0

@@ -16,7 +16,7 @@ public class K_Change_question3 : MonoBehaviour {
 	void Update () {
 		myTimer += Time.deltaTime;
 		if(myTimer >=5){{
-				Application.LoadLevel("K_seen_otamesi");
+				Application.LoadLevel("Touch_Apple");
 				//DontDestroyOnLoad();
 			}
 		}

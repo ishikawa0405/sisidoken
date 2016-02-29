@@ -5,33 +5,43 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/title1.unity
   - enabled: 0
     path: Assets/title2.unity
   - enabled: 0
     path: Assets/prototipe1.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Explanation_Story.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/Explanation_Story2.unity
   - enabled: 0
     path: Assets/explanation_Story1.unity
-  - enabled: 1
+  - enabled: 0
     path: "Assets/\u5ECA\u4E0B.unity"
-  - enabled: 1
+  - enabled: 0
     path: Assets/room.unity
-  - enabled: 1
+  - enabled: 0
     path: "Assets/\u5ECA\u4E0B2.unity"
   - enabled: 1
-    path: Assets/goal.unity
-  - enabled: 0
     path: Assets/SitDown/Sit_Down.unity
   - enabled: 1
     path: Assets/SitDown/Rejoice_Taich.unity
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Jump/K_Jump.unity
+  - enabled: 1
     path: Assets/Jump/Rejoice_Taich2.unity
   - enabled: 1
+    path: Assets/Rise_Left/K_Rise_Left.unity
+  - enabled: 1
+    path: Assets/Rise_Left/Rejoice_Taich3.unity
+  - enabled: 1
+    path: Assets/Tarch_Apple/Touch_Apple.unity
+  - enabled: 1
+    path: Assets/Tarch_Apple/Rejoice_Taich4.unity
+  - enabled: 1
+    path: Assets/goal.unity
+  - enabled: 0
     path: Assets/Jump/K_seen_otamesi.unity
   - enabled: 0
     path: Assets/SitDown/Rejoice_Taich.unity
