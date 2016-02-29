@@ -13,7 +13,7 @@ public class Raise_Left_Hand : AvatarController {
 	// Update is called once per frame
 	void Update () {
 		Debug.Log (base.bones[7].transform.position);
-		if (base.bones [7].transform.position.y > 1.8) {
+		if (base.bones [7].transform.position.y > 2.3) {
 			if (hantei == false) 
 			{
 				hantei = true;
@@ -31,7 +31,7 @@ public class Raise_Left_Hand : AvatarController {
 		if(hantei == true){
 			SitDown_myTimer += Time.deltaTime;
 			if(SitDown_myTimer >=3){
-				Application.LoadLevel("廊下2");
+				Application.LoadLevel("Rejoice_Taich3");
 				//DontDestroyOnLoad();
 			}
 		}

@@ -31,7 +31,7 @@ public class SitDown : AvatarController {
 		if(hantei == true){
 			SitDown_myTimer += Time.deltaTime;
 			if(SitDown_myTimer >=3){
-				Application.LoadLevel("廊下2");
+				Application.LoadLevel("Rejoice_Taich");
 				//DontDestroyOnLoad();
 			}
 		}
