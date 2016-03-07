@@ -1662,7 +1662,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d09366c7685f30e4c8d8127523d67693, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4d7888e5480481e4fbc9160520ca2c3c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -1676,7 +1676,7 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
-  BypassListenerEffects: 1
+  BypassListenerEffects: 0
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
@@ -1735,7 +1735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a2d22a2b24f969418d4981829aa8fbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip1: {fileID: 8300000, guid: d09366c7685f30e4c8d8127523d67693, type: 3}
+  audioClip1: {fileID: 8300000, guid: 4d7888e5480481e4fbc9160520ca2c3c, type: 3}
 --- !u!1 &391917578
 GameObject:
   m_ObjectHideFlags: 0
@@ -5157,7 +5157,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d09366c7685f30e4c8d8127523d67693, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4d7888e5480481e4fbc9160520ca2c3c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5171,7 +5171,7 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 1
-  BypassListenerEffects: 0
+  BypassListenerEffects: 1
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
@@ -5230,7 +5230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7881b4b3d3f5c1c4bbc08d437971daf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip1: {fileID: 8300000, guid: d09366c7685f30e4c8d8127523d67693, type: 3}
+  audioClip1: {fileID: 8300000, guid: 4d7888e5480481e4fbc9160520ca2c3c, type: 3}
 --- !u!1 &1287908655
 GameObject:
   m_ObjectHideFlags: 0
