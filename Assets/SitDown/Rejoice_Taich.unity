@@ -361,7 +361,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8220246, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8250044, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: m_Enabled
@@ -381,6 +381,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: BypassListenerEffects
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11444660, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

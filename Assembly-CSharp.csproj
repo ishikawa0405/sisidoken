@@ -136,18 +136,23 @@
      <Compile Include="Assets\R_Touch.cs" />
      <Compile Include="Assets\Raise_Left_Hand.cs" />
      <Compile Include="Assets\Rejoice_Camera.cs" />
+     <Compile Include="Assets\Rejoice_Taichi_Voice.cs" />
+     <Compile Include="Assets\Rejoice_Unity_Voice.cs" />
      <Compile Include="Assets\SitDown.cs" />
      <Compile Include="Assets\SitDown\ShitDown.cs" />
      <Compile Include="Assets\Sit_Down__Rejoice.cs" />
      <Compile Include="Assets\Sound.cs" />
      <Compile Include="Assets\Sound_room.cs" />
      <Compile Include="Assets\Taich_Voice.cs" />
+     <Compile Include="Assets\Taichi_Voice_Jump.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
      <Compile Include="Assets\UnityChan\Scripts\RandomWind.cs" />
      <Compile Include="Assets\UnityChan\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+     <Compile Include="Assets\Unity_Omedetou_Voice.cs" />
+     <Compile Include="Assets\Unity_Voice_Jump.cs" />
      <Compile Include="Assets\Walk_unitychan.cs" />
      <Compile Include="Assets\boneinfo.cs" />
      <Compile Include="Assets\camerawork.cs" />
@@ -245,23 +250,17 @@
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F01\animation_list_all.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\Puppet\fbx_ctrl.xml" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
  <Reference Include="OpenCvSharp">
- <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
+ <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
