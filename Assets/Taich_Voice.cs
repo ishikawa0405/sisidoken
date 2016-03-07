@@ -15,12 +15,12 @@ public class Taich_Voice : MonoBehaviour {
 	
 	void Update () {
 		myTimer += Time.deltaTime;
-		if(myTimer > 1.0) {
+		/*if(myTimer > 1.0) {
 			if(hantei == false){
 				sound01.PlayOneShot(sound01.clip);
 				hantei = true;
 			}
-		}
+		}*/
 		if (myTimer > 4.0) {
 			if(hantei2 == false){
 				sound02.PlayOneShot(sound02.clip);

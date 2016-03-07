@@ -15,7 +15,7 @@ public class K_Change_question1 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		myTimer += Time.deltaTime;
-		if(myTimer >=3){{
+		if(myTimer >=3.5){{
 				Application.LoadLevel("K_Jump");
 				//DontDestroyOnLoad();
 			}
