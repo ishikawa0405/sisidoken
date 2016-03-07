@@ -349,7 +349,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: m_Volume
-      value: .521000028
+      value: .342000008
       objectReference: {fileID: 0}
     - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
       propertyPath: BypassReverbZones
