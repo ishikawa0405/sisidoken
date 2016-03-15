@@ -31,7 +31,7 @@ public class Jump : AvatarController {
 		if(hantei == true){
 			Jump_myTimer += Time.deltaTime;
 			if(Jump_myTimer >=3){
-				Application.LoadLevel("Rejoice_Taich2");
+				Application.LoadLevel("Rejoice_Taich");
 				//DontDestroyOnLoad();
 			}
 		}

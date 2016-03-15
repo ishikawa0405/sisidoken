@@ -127,9 +127,6 @@
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F01\animation_list_all.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\Puppet\fbx_ctrl.xml" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -145,17 +142,14 @@
  <Reference Include="UnityEditor.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
  <Reference Include="OpenCvSharp">
- <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
+ <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="translator">
- <HintPath>C:/GitHub/sisidoken/Assets/terasurware/Editor/translator.dll</HintPath>
+ <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/terasurware/Editor/translator.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
