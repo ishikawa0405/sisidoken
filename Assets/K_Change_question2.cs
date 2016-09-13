@@ -16,7 +16,7 @@ public class K_Change_question2 : MonoBehaviour {
 	void Update () {
 		myTimer += Time.deltaTime;
 		if(myTimer >=6){{
-				Application.LoadLevel("K_Rise_Left");
+				Application.LoadLevel("goal");
 				//DontDestroyOnLoad();
 			}
 		}

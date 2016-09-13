@@ -6,6 +6,6 @@ public class NewBehaviourScript1 : MonoBehaviour {
     // Use this for initialization
     public void SceneLoad()
     {
-        Application.LoadLevel("Sit_down");
+        Application.LoadLevel("K_Jump");
     }
 }

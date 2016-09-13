@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class K_Change_question1 : MonoBehaviour {
@@ -16,7 +16,7 @@ public class K_Change_question1 : MonoBehaviour {
 	void Update () {
 		myTimer += Time.deltaTime;
 		if(myTimer >=3.5){{
-				Application.LoadLevel("K_Jump");
+				Application.LoadLevel("K_Rise_Left");
 				//DontDestroyOnLoad();
 			}
 		}
