@@ -1,22 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewBehaviourScript1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\S_J_R.cs">
     <Files>
-      <File FileName="Assets\K_Change_question1.cs" Line="18" Column="19" />
-      <File FileName="Assets\Taichi_Voice_Jump.cs" Line="1" Column="1" />
-      <File FileName="Assets\Rejoice_Camera.cs" Line="1" Column="1" />
-      <File FileName="Assets\K_Change_question2.cs" Line="1" Column="1" />
-      <File FileName="Assets\K_Change_question3.cs" Line="1" Column="1" />
-      <File FileName="Assets\damage1.cs" Line="1" Column="1" />
-      <File FileName="Assets\Sound.cs" Line="1" Column="1" />
-      <File FileName="Assets\Unity_Voice_Jump.cs" Line="1" Column="1" />
-      <File FileName="Assets\Jump\K_Jump_Canvas.cs" Line="1" Column="1" />
-      <File FileName="Assets\Rejoice_Unity_Voice.cs" Line="1" Column="1" />
-      <File FileName="Assets\Rejoice_Taichi_Voice.cs" Line="1" Column="1" />
-      <File FileName="Assets\Unity_Omedetou_Voice.cs" Line="1" Column="1" />
-      <File FileName="c:\GitHub\sisidoken\Assets\KinectScripts\Interfaces\Kinect2Interface.cs" Line="1" Column="1" />
-      <File FileName="Assets\Taich_Voice.cs" Line="1" Column="1" />
-      <File FileName="Assets\NewBehaviourScript1.cs" Line="8" Column="6" />
+      <File FileName="Assets\S_J_R.cs" Line="44" Column="5" />
+      <File FileName="Assets\Jump.cs" Line="33" Column="27" />
+      <File FileName="Assets\Move_Test.cs" Line="30" Column="16" />
+      <File FileName="Assets\Raise_Left_Hand.cs" Line="16" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

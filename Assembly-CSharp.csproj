@@ -135,9 +135,11 @@
      <Compile Include="Assets\NewBehaviourScript2.cs" />
      <Compile Include="Assets\R_Touch.cs" />
      <Compile Include="Assets\Raise_Left_Hand.cs" />
+     <Compile Include="Assets\Random_Quiz.cs" />
      <Compile Include="Assets\Rejoice_Camera.cs" />
      <Compile Include="Assets\Rejoice_Taichi_Voice.cs" />
      <Compile Include="Assets\Rejoice_Unity_Voice.cs" />
+     <Compile Include="Assets\S_J_R.cs" />
      <Compile Include="Assets\SitDown.cs" />
      <Compile Include="Assets\SitDown\ShitDown.cs" />
      <Compile Include="Assets\Sit_Down__Rejoice.cs" />
