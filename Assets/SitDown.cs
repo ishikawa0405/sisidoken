@@ -13,7 +13,7 @@ public class SitDown : AvatarController {
 	// Update is called once per frame
 	void Update () {
 		Debug.Log (base.bones[4].transform.position);
-		if (base.bones [4].transform.position.y < 1.5) {
+		if (base.bones [4].transform.position.y < 1.6) {
 			if (hantei == false) 
 			{
 				hantei = true;
@@ -31,7 +31,9 @@ public class SitDown : AvatarController {
 		if(hantei == true){
 			SitDown_myTimer += Time.deltaTime;
 			if(SitDown_myTimer >=3){
-				Application.LoadLevel("Rejoice_Taich");
+				Jump JumpScript = GetComponent<Jump>();
+				JumpScript.Update ();
+				//Application.LoadLevel("Rejoice_Taich");
 				//DontDestroyOnLoad();
 			}
 		}
