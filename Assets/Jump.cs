@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Jump : AvatarController {
@@ -31,7 +31,7 @@ public class Jump : AvatarController {
 		if(hantei == true){
 			Jump_myTimer += Time.deltaTime;
 			if(Jump_myTimer >=3){
-				Application.LoadLevel("Rejoice_Taich");
+				Application.LoadLevel("Rejoice_Taich2");
 				//DontDestroyOnLoad();
 			}
 		}
