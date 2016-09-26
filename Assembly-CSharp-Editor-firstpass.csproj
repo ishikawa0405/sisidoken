@@ -91,6 +91,7 @@
      <None Include="Assets\TaichiCharacterPack\Viewer\Resources\Taichi\Viewer Settings\stage_texture_list.txt" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\MouthModel\MeanShapes.txt" />
      <None Include="Assets\Resources\Depth2ColorShader.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Resources\DepthShader.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Plugins\NuiDatabase\Expression\NuiExpressionModelManifest.txt" />
