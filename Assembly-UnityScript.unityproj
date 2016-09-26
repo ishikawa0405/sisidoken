@@ -98,8 +98,9 @@
      <None Include="Assets\AdventureForge\CabinetsAndShelvesReadme.txt" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\MouthModel\MeanShapes.txt" />
      <None Include="Assets\Resources\Depth2ColorShader.shader" />
+     <None Include="Assets\Standard Assets 1\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Resources\DepthShader.shader" />
-     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Standard Assets 1\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Plugins\NuiDatabase\Expression\NuiExpressionModelManifest.txt" />
      <None Include="Assets\TaichiCharacterPack\Releasenote.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
@@ -121,13 +122,13 @@
      <None Include="Assets\Resources\Dilate.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
      <None Include="Assets\TaichiCharacterPack\Shaders\toon_hair.shader" />
-     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets 1\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F02\fbx_list.txt" />
      <None Include="Assets\TaichiCharacterPack\Viewer\Resources\Taichi\Viewer Settings\fbx_ctrl.xml" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F03\Asphodel\animation_list_b.txt" />
-     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Standard Assets 1\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\M01\fbx_list.txt" />
-     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\Standard Assets 1\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HLP.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F03\Asphodel\fbx_ctrl.xml" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_F.txt" />
