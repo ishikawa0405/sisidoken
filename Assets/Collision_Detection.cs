@@ -36,7 +36,7 @@ public class Collision_Detection : MonoBehaviour{
 		if(hantei == true){
 			SitDown_myTimer += Time.deltaTime;
 			if(SitDown_myTimer >=3){
-				Application.LoadLevel("Rejoice_Taich4");
+				Application.LoadLevel("Rejoice_Taich3");
 				//DontDestroyOnLoad();
 			}
 		}

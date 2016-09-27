@@ -9,6 +9,11 @@ TagManager:
   - Apple
   - stop1
   - apple
+  - garbage
+  - trash
+  - water
+  - lefthand
+  - righthand
   layers:
   - Default
   - TransparentFX

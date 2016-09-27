@@ -31,7 +31,7 @@ public class Raise_Left_Hand : AvatarController {
 		if(hantei == true){
 			SitDown_myTimer += Time.deltaTime;
 			if(SitDown_myTimer >=3){
-				Application.LoadLevel("Rejoice_Taich3");
+				Application.LoadLevel("Rejoice_Taich4");
 				//DontDestroyOnLoad();
 			}
 		}

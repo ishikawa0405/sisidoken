@@ -15,6 +15,9 @@ public class Move_Test : MonoBehaviour {
 	public void Move2(){
 		iTween.MoveTo(gameObject,new Vector3(-1.08f, 8.99f, -0.15f), 0.5f);
 	}
+	public void Move3(){
+		iTween.MoveTo(gameObject,new Vector3(-1.08f, 1.58f, -0.15f), 0.5f);
+	}
 	public void Sound(){
 			audioSource.Play ();
 	}
@@ -23,5 +26,8 @@ public class Move_Test : MonoBehaviour {
 	}
 	public void Stop(){
 		gameObject.GetComponent<Move_Test>().enabled = false;
+	}
+	public void ReStart(){
+		gameObject.GetComponent<Move_Test> ().enabled = true;
 	}
 }

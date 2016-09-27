@@ -85,24 +85,24 @@ NavMeshSettings:
     cellSize: .166666672
     manualCellSize: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1583380031 stripped
+--- !u!1 &928255025 stripped
 GameObject:
-  m_PrefabParentObject: {fileID: 158936, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+  m_PrefabParentObject: {fileID: 118742, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
   m_PrefabInternal: {fileID: 1905289859}
---- !u!82 &1583380034
+--- !u!82 &928255027
 AudioSource:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1583380031}
+  m_GameObject: {fileID: 928255025}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 47ac379e82bb8b9408a979fc2deb9a77, type: 3}
+  m_audioClip: {fileID: 8300000, guid: a4307ec5f85cf684d9694f8ec5ee8348, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 1.23000002
-  Loop: 1
+  m_Pitch: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   Priority: 128
@@ -111,9 +111,9 @@ AudioSource:
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
-  BypassEffects: 1
-  BypassListenerEffects: 1
-  BypassReverbZones: 1
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
     m_Curve:
@@ -159,7 +159,93 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
---- !u!114 &1583380035
+--- !u!114 &928255028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 928255025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92f824ec2e0d064dba3dfcfd70b50d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound01: {fileID: 928255027}
+--- !u!1 &1583380031 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 158936, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+  m_PrefabInternal: {fileID: 1905289859}
+--- !u!82 &1583380033
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1583380031}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: f10f147dad8a4ca47bc4a8b1b32fba11, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &1583380034
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -167,10 +253,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1583380031}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b8fedbb278b590419e3a81c96f61948, type: 3}
+  m_Script: {fileID: 11500000, guid: 39341a5ea9da8934dadd64af7913a323, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioClip1: {fileID: 0}
+  sound01: {fileID: 1583380033}
 --- !u!1 &1593025077
 GameObject:
   m_ObjectHideFlags: 0
@@ -337,6 +423,18 @@ Prefab:
       propertyPath: Mute
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 449310, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 65.0299988
+      objectReference: {fileID: 0}
+    - target: {fileID: 449310, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -58.5900002
+      objectReference: {fileID: 0}
+    - target: {fileID: 8286024, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: fe54425c16cbd514daf89f5eb4598fe1, type: 3}
     m_RemovedComponents:
     - {fileID: 11413584, guid: 32b924a8bdb73384596a28094553ad61, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 32b924a8bdb73384596a28094553ad61, type: 2}

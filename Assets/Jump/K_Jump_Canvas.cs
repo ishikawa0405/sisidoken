@@ -14,10 +14,10 @@ public class K_Jump_Canvas : MonoBehaviour {
 		if(myTimer >=4){{
 				this.GetComponent<Text>().text = "もんだい!";
 			}
-			if(myTimer >=7){{
+			if(myTimer >=6){{
 					this.GetComponent<Text>().text = "よくきいて♪♪";
 				}
-				if(myTimer >=10){{
+				if(myTimer >=8){{
 						this.GetComponent<Text>().text = "ポーズをとろう!";
 					}
 				}

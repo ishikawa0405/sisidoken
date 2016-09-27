@@ -15,8 +15,8 @@ public class K_Change_question2 : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		myTimer += Time.deltaTime;
-		if(myTimer >=3){{
-				Application.LoadLevel("K_seen_otamesi");
+		if(myTimer >=6){{
+				Application.LoadLevel("Sit_Down");
 				//DontDestroyOnLoad();
 			}
 		}

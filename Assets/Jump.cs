@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Jump : AvatarController {
@@ -11,13 +11,14 @@ public class Jump : AvatarController {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	public void Update () {
 		Debug.Log (base.bones[4].transform.position);
 		if (base.bones [4].transform.position.y > 2.15) {
 			if (hantei == false) 
 			{
 				hantei = true;
 				Move_Test CubeTest = refObj.GetComponent<Move_Test>();
+				CubeTest.SoundStop();
 				CubeTest.Sound();
 				CubeTest.Move();
 				//CubeTest.SoundStop();
