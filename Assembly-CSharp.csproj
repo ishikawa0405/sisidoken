@@ -52,10 +52,16 @@
      <Compile Include="Assets\COMP.cs" />
      <Compile Include="Assets\CameraChenge.cs" />
      <Compile Include="Assets\ChangeCamera.cs" />
+     <Compile Include="Assets\ChangeCamera2.cs" />
+     <Compile Include="Assets\ChangeCameraBath.cs" />
      <Compile Include="Assets\Collision_Detection.cs" />
      <Compile Include="Assets\Ex2toMondai.cs" />
      <Compile Include="Assets\ExtoEx2.cs" />
-     <Compile Include="Assets\FollowTarget.cs" />
+     <Compile Include="Assets\GoBedWord01.cs" />
+     <Compile Include="Assets\GoBedWord02.cs" />
+     <Compile Include="Assets\GoBedWord03.cs" />
+     <Compile Include="Assets\GoBedWord04.cs" />
+     <Compile Include="Assets\GoodNight.cs" />
      <Compile Include="Assets\Jump.cs" />
      <Compile Include="Assets\Jump\K_Jump_Canvas.cs" />
      <Compile Include="Assets\K_Change_question1.cs" />
@@ -136,6 +142,8 @@
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\NewBehaviourScript1.cs" />
      <Compile Include="Assets\NewBehaviourScript2.cs" />
+     <Compile Include="Assets\NewBehaviourScript3.cs" />
+     <Compile Include="Assets\OpenKeep.cs" />
      <Compile Include="Assets\Open_the_Door.cs" />
      <Compile Include="Assets\R_Touch.cs" />
      <Compile Include="Assets\Raise_Left_Hand.cs" />
@@ -322,6 +330,9 @@
      <Compile Include="Assets\Standard Assets 1\Windows\Kinect\TrackingConfidence.cs" />
      <Compile Include="Assets\Standard Assets 1\Windows\Kinect\TrackingState.cs" />
      <Compile Include="Assets\Standard Assets 1\Windows\Kinect\Vector4.cs" />
+     <Compile Include="Assets\Tadaima.cs" />
+     <Compile Include="Assets\Tadaima2.cs" />
+     <Compile Include="Assets\Tadaima3.cs" />
      <Compile Include="Assets\Taich_Voice.cs" />
      <Compile Include="Assets\Taichi_Voice_Jump.cs" />
      <Compile Include="Assets\Throw away\garbage.cs" />
@@ -335,6 +346,7 @@
      <Compile Include="Assets\Unity_Omedetou_Voice.cs" />
      <Compile Include="Assets\Unity_Voice_Jump.cs" />
      <Compile Include="Assets\Walk_unitychan.cs" />
+     <Compile Include="Assets\ani.cs" />
      <Compile Include="Assets\boneinfo.cs" />
      <Compile Include="Assets\camerawork.cs" />
      <Compile Include="Assets\damage1.cs" />
@@ -433,6 +445,7 @@
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_F.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F01\animation_list_all.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\Puppet\fbx_ctrl.xml" />
+     <None Include="Assets\Ornamental Flower Set\Shaders\Transparent-BumpSpecNoCull.shader" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
