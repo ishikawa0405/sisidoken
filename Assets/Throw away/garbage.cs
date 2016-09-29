@@ -23,28 +23,28 @@ public class garbage : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		M_Timer += Time.deltaTime;
-		if (hantei == true ) {
+		if (hantei == true) {
 			M_Timer2 += Time.deltaTime;
-			transform.position = new Vector3(player.transform.position.x - 0.15f , player.transform.position.y - 0.15f , player.transform.position.z);
-			if(hantei5 == false){
-				Pre_Seikai = (GameObject)Instantiate (S_Open, new Vector3 (-7.1f, 1.8f, 87.8f), Quaternion.Euler(0, -90f, 0));
+			transform.position = new Vector3 (player.transform.position.x - 0.15f, player.transform.position.y - 0.15f, player.transform.position.z);
+			if (hantei5 == false) {
+				Pre_Seikai = (GameObject)Instantiate (S_Open, new Vector3 (-6.97f, 1.97f, 86.89f), Quaternion.Euler (0, 201.475f, 0));
 				hantei5 = true;
-			}
-			if(M_Timer2 >= 1.0f ){
-				GameObject.Destroy(Pre_Seikai);
 			}
 			if(hantei3 == false){
 			S_Open Seikai = refObj.GetComponent<S_Open>();
 			Seikai.Sound ();
 			hantei3 = true;
 			}
+		/*
 		}
 		if (hantei2 == true && hantei4 == false) {
 			Destroy(gameObject);
 			S_Open Seikai = refObj.GetComponent<S_Open>();
 			Seikai.Sound ();
 			hantei4 = true;
-			Pre_Seikai = (GameObject)Instantiate (S_Open, new Vector3 (-7.1f, 1.8f, 87.8f), Quaternion.Euler(0, -90f, 0));
+			Pre_Seikai = (GameObject)Instantiate (S_Open, new Vector3 (-6.97f, 2.16f, 86.89f), Quaternion.Euler (0, -185f, 0));
+		}
+		*/
 		}
 	}
 	public void OnTriggerEnter(Collider col){
@@ -52,9 +52,10 @@ public class garbage : MonoBehaviour {
 			if (col.gameObject.tag == "Player") {
 				hantei = true;
 			}
-			if (col.gameObject.tag == "trash") {
+/*			if (col.gameObject.tag == "trash") {
 				hantei2 = true;
 			}
+			*/
 		}
 	}
 }

@@ -10,7 +10,7 @@ public class T2_Script : MonoBehaviour {
 	GameObject Prehub_listen;
 	// Use this for initialization
 	void Start () {
-		Prehub_mondai = (GameObject)Instantiate (House_Mondai, new Vector3 (-8.2f, 2f, 86.71f), Quaternion.Euler (0, -90f, 0));
+		Prehub_mondai = (GameObject)Instantiate (House_Mondai, new Vector3 (-6.97f, 2.16f, 86.89f), Quaternion.Euler (0, 201.475f, 0));
 	}
 	
 	// Update is called once per frame
@@ -20,7 +20,7 @@ public class T2_Script : MonoBehaviour {
 			GameObject.Destroy(Prehub_mondai);
 		}
 		if (M_Timer >= 4.0f && M_Timer < 6.0f && hantei == false) {
-			Prehub_listen = (GameObject)Instantiate (listen, new Vector3 (-8.2f, 2f, 86.71f), Quaternion.Euler (0, -90f, 0));
+			Prehub_listen = (GameObject)Instantiate (listen, new Vector3 (-6.97f, 2.16f, 86.89f), Quaternion.Euler (0, 201.475f, 0));
 			hantei = true;
 		}
 		if (M_Timer >= 6.0f && hantei == true) {

@@ -327,6 +327,7 @@
      <Compile Include="Assets\Taichi_Voice_Jump.cs" />
      <Compile Include="Assets\Throw away\T2_Script.cs" />
      <Compile Include="Assets\Throw away\garbage.cs" />
+     <Compile Include="Assets\Throw away\garbage2.cs" />
      <Compile Include="Assets\Throw away\throwaway.cs" />
      <Compile Include="Assets\Turn_off_the_light\S_Turn_off_the_light.cs" />
      <Compile Include="Assets\Turn_off_the_light\Turn_off_the_light.cs" />
