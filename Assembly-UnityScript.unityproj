@@ -80,6 +80,7 @@
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\MouthModel\lopen.p.txt" />
      <None Include="Assets\UnityChan\license.txt" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\EvalModel\Front.p.txt" />
+     <None Include="Assets\KajamansRoads\FileNamesDescription.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F01\animation_list.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F01\fbx_ctrl.xml" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F05\fbx_list.txt" />
@@ -114,12 +115,14 @@
      <None Include="Assets\Resources\Erode.shader" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\WholeHeadModel\FullHeadMaskVertexCorrespondence.txt" />
+     <None Include="Assets\OutPost\Resources\Assets\Materials\2sided.shader" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F02\animation_list_all.txt" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\ViewModel\left.p.txt" />
      <None Include="Assets\Resources\BodyShader.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_shape_classifier.txt" />
      <None Include="Assets\Resources\Dilate.shader" />
+     <None Include="Assets\KajamansRoads\Free\ReadMe.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
      <None Include="Assets\TaichiCharacterPack\Shaders\toon_hair.shader" />
      <None Include="Assets\Standard Assets 1\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
@@ -142,10 +145,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="OpenCvSharp">
- <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
+ <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
@@ -153,10 +156,6 @@
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{2E137A58-D112-F8C8-2FBA-F6A75E79A4D0}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

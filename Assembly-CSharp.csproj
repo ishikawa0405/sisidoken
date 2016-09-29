@@ -55,7 +55,6 @@
      <Compile Include="Assets\Collision_Detection.cs" />
      <Compile Include="Assets\Ex2toMondai.cs" />
      <Compile Include="Assets\ExtoEx2.cs" />
-     <Compile Include="Assets\FollowTarget.cs" />
      <Compile Include="Assets\Jump.cs" />
      <Compile Include="Assets\Jump\K_Jump_Canvas.cs" />
      <Compile Include="Assets\K_Change_question1.cs" />
@@ -136,7 +135,9 @@
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\NewBehaviourScript1.cs" />
      <Compile Include="Assets\NewBehaviourScript2.cs" />
-     <Compile Include="Assets\Open_the_Door.cs" />
+     <Compile Include="Assets\Open_Door\Open_the_Door.cs" />
+     <Compile Include="Assets\Open_Door\S_Open.cs" />
+     <Compile Include="Assets\Open_Door\U2_Script.cs" />
      <Compile Include="Assets\R_Touch.cs" />
      <Compile Include="Assets\Raise_Left_Hand.cs" />
      <Compile Include="Assets\Random_Quiz.cs" />
@@ -324,8 +325,12 @@
      <Compile Include="Assets\Standard Assets 1\Windows\Kinect\Vector4.cs" />
      <Compile Include="Assets\Taich_Voice.cs" />
      <Compile Include="Assets\Taichi_Voice_Jump.cs" />
+     <Compile Include="Assets\Throw away\T2_Script.cs" />
      <Compile Include="Assets\Throw away\garbage.cs" />
      <Compile Include="Assets\Throw away\throwaway.cs" />
+     <Compile Include="Assets\Turn_off_the_light\S_Turn_off_the_light.cs" />
+     <Compile Include="Assets\Turn_off_the_light\Turn_off_the_light.cs" />
+     <Compile Include="Assets\Turn_off_the_light\U6_Script.cs" />
      <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
      <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
      <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
@@ -335,12 +340,15 @@
      <Compile Include="Assets\Unity_Omedetou_Voice.cs" />
      <Compile Include="Assets\Unity_Voice_Jump.cs" />
      <Compile Include="Assets\Walk_unitychan.cs" />
+     <Compile Include="Assets\asobikata.cs" />
      <Compile Include="Assets\boneinfo.cs" />
      <Compile Include="Assets\camerawork.cs" />
      <Compile Include="Assets\damage1.cs" />
      <Compile Include="Assets\dontdestoroi.cs" />
      <Compile Include="Assets\feed.cs" />
      <Compile Include="Assets\goalComent.cs" />
+     <Compile Include="Assets\house_story\U_Story_Script.cs" />
+     <Compile Include="Assets\iTween.cs" />
      <Compile Include="Assets\kirikae1.cs" />
      <Compile Include="Assets\kirikae2.cs" />
      <Compile Include="Assets\kirikae3.cs" />
@@ -351,7 +359,8 @@
      <Compile Include="Assets\terasurware\Utility\PersistentAmongPlayModeAttribute.cs" />
      <Compile Include="Assets\terasurware\Utility\SingletonMonoBehaviour.cs" />
      <Compile Include="Assets\unitytyaninfo.cs" />
-     <Compile Include="Assets\wash_hands.cs" />
+     <Compile Include="Assets\wash_hands\U4_Script.cs" />
+     <Compile Include="Assets\wash_hands\wash_hands.cs" />
      <None Include="Assets\Resources\BlurShader.shader" />
      <None Include="Assets\TaichiCharacterPack\Shaders\toon_cutoff.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
@@ -379,6 +388,7 @@
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\MouthModel\lopen.p.txt" />
      <None Include="Assets\UnityChan\license.txt" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\EvalModel\Front.p.txt" />
+     <None Include="Assets\KajamansRoads\FileNamesDescription.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F01\animation_list.txt" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F01\fbx_ctrl.xml" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F05\fbx_list.txt" />
@@ -413,12 +423,14 @@
      <None Include="Assets\Resources\Erode.shader" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\WholeHeadModel\FullHeadMaskVertexCorrespondence.txt" />
+     <None Include="Assets\OutPost\Resources\Assets\Materials\2sided.shader" />
      <None Include="Assets\TaichiCharacterPack\TwinViewer\Resources\Taichi\TwinViewer Settings\F02\animation_list_all.txt" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\ViewModel\left.p.txt" />
      <None Include="Assets\Resources\BodyShader.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
      <None Include="Assets\Plugins\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_shape_classifier.txt" />
      <None Include="Assets\Resources\Dilate.shader" />
+     <None Include="Assets\KajamansRoads\Free\ReadMe.txt" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
      <None Include="Assets\TaichiCharacterPack\Shaders\toon_hair.shader" />
      <None Include="Assets\Standard Assets 1\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
@@ -441,10 +453,10 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="OpenCvSharp">
- <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
+ <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/OpenCV/OpenCvSharp.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>C:/Users/Ryunosuke/Documents/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>C:/GitHub/sisidoken/Assets/KinectScripts/SharpZipLib/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
@@ -452,10 +464,6 @@
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{2E137A58-D112-F8C8-2FBA-F6A75E79A4D0}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
