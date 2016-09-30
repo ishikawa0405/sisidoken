@@ -13,8 +13,8 @@ public class Tadaima : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		myTimer += Time.deltaTime;
-		if(myTimer >=1 && hantei == false){
-			Instantiate(Tadaima01, new Vector3(36f, 11.5f, 35.7f), Quaternion.Euler (0, 180, 0));
+		if(myTimer >=0.2 && hantei == false){
+			Instantiate(Tadaima01, new Vector3(38f, 11.5f, 35.7f), Quaternion.Euler (0, 180, 0));
 			hantei = true;
 		}	
 	}
