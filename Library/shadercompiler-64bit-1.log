@@ -1,19 +1,42 @@
 Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-9312
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-9444
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=1710 outsize=302 ok=1
+Cmd: preprocess
+  insize=1188 outsize=307 ok=1
+Cmd: preprocess
+  insize=1775 outsize=360 ok=1
+Cmd: preprocess
+  insize=1435 outsize=349 ok=1
+Cmd: preprocess
+  insize=1630 outsize=302 ok=1
+Cmd: preprocess
+  insize=8335 outsize=1273 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=577 outsize=3533 kw=SHADOWS_DEPTH pd= ok=1
+  error: 2 plat 4 at (98): 'LightingLambert': cannot implicitly convert from 'half3' to 'struct UnityGI'\nCompiling Vertex program with DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3832 outsize=0 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
+Cmd: preprocess
+  insize=1387 outsize=350 ok=1
+Cmd: preprocess
+  insize=1787 outsize=360 ok=1
+Cmd: preprocess
+  insize=8031 outsize=1233 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=577 outsize=453 kw=SHADOWS_DEPTH pd= ok=1
+  error: 2 plat 4 at (98): 'LightingLambert': cannot implicitly convert from 'half3' to 'struct UnityGI'\nCompiling Vertex program with DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3700 outsize=0 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
+Cmd: preprocess
+  insize=8031 outsize=1233 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=7194 outsize=4849 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+  error: 2 plat 4 at (98): 'LightingLambert': cannot implicitly convert from 'half3' to 'struct UnityGI'\nCompiling Vertex program with DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3700 outsize=0 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
+Cmd: preprocess
+  insize=8031 outsize=1233 ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=7194 outsize=1989 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+  error: 2 plat 4 at (98): 'LightingLambert': cannot implicitly convert from 'half3' to 'struct UnityGI'\nCompiling Vertex program with DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3700 outsize=0 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0
+Cmd: preprocess
+  insize=8031 outsize=1233 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1001 outsize=1087 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1001 outsize=859 kw= pd= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=6914 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=6914 outsize=1249 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=1
+  error: 2 plat 4 at (98): 'LightingLambert': cannot implicitly convert from 'half3' to 'struct UnityGI'\nCompiling Vertex program with DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=3700 outsize=0 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF pd= ok=0

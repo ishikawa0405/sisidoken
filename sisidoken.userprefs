@@ -1,31 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\N_ChangeSeen01.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\U_ChangeSeen01.cs">
     <Files>
-      <File FileName="Assets\Tadaima.cs" Line="16" Column="19" />
-      <File FileName="Assets\kirikae1.cs" Line="1" Column="1" />
-      <File FileName="Assets\Open_the_Door.cs" Line="1" Column="1" />
-      <File FileName="Assets\OpenKeep.cs" Line="1" Column="1" />
-      <File FileName="Assets\ChangeCamera2.cs" Line="1" Column="1" />
-      <File FileName="Assets\taich.cs" Line="1" Column="1" />
-      <File FileName="Assets\GoodNight.cs" Line="1" Column="1" />
-      <File FileName="Assets\Tadaima2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Tadaima3.cs" Line="1" Column="1" />
-      <File FileName="Assets\GoBedWord01.cs" Line="1" Column="1" />
-      <File FileName="Assets\GoBedWord02.cs" Line="1" Column="1" />
-      <File FileName="Assets\GoBedWord03.cs" Line="1" Column="1" />
-      <File FileName="Assets\NewBehaviourScript3.cs" Line="1" Column="1" />
-      <File FileName="Assets\GoBedWord04.cs" Line="1" Column="1" />
-      <File FileName="c:\Users\Ryunosuke\Documents\GitHub\sisidoken\Assets\Move_Test.cs" Line="1" Column="1" />
-      <File FileName="Assets\U_ChangeSeen01.cs" Line="16" Column="43" />
-      <File FileName="Assets\StartButton.cs" Line="1" Column="1" />
-      <File FileName="Assets\StoryKon.cs" Line="56" Column="2" />
-      <File FileName="Assets\Rejoice_Taichi_Voice.cs" Line="1" Column="1" />
-      <File FileName="Assets\ChaimTaiming.cs" Line="1" Column="1" />
-      <File FileName="Assets\UK_StoryChange.cs" Line="1" Column="1" />
-      <File FileName="Assets\N_StoryChange.cs" Line="42" Column="51" />
-      <File FileName="Assets\StopAlarm.cs" Line="16" Column="25" />
-      <File FileName="Assets\N_ChangeSeen01.cs" Line="16" Column="18" />
+      <File FileName="Assets\N_ChangeSeen0f.cs" Line="4" Column="15" />
+      <File FileName="Assets\CityFinish04.cs" Line="1" Column="1" />
+      <File FileName="Assets\N_CityFinsh03.cs" Line="1" Column="1" />
+      <File FileName="Assets\U_ChangeSeen01.cs" Line="22" Column="1" />
+      <File FileName="Assets\Horse\SoftAlpha.shader" Line="98" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
