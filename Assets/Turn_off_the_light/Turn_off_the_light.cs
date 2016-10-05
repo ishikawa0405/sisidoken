@@ -17,7 +17,7 @@ public class Turn_off_the_light : MonoBehaviour {
 	void Update () {
 		M_Timer += Time.deltaTime;
 		if (hantei == true && hantei2 == false) {
-			Instantiate(S_Off_light, new Vector3(28.34f, 28.3f, 45.45f),  Quaternion.Euler(0, 332.454f, 0));
+			Instantiate(S_Off_light, new Vector3(24.58f, 29.49f, 41.84f), Quaternion.Euler (0, 33.840f, 0));
 			S_Open Seikai = refObj.GetComponent<S_Open>();
 			Seikai.Sound ();
 			hantei2 = true;

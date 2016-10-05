@@ -19,12 +19,15 @@ public class wash_hands : MonoBehaviour {
 	void Update () {
 		M_Timer += Time.deltaTime;
 		Debug.Log (hantei3);
+		Debug.Log (hantei5);
 		if (M_Timer >= 6.0f) {
-			if (hantei3 == true && hantei4 == false) {
-				Instantiate (S_wash, new Vector3 (28.11f, 12.35f, 16.12f), Quaternion.identity);
+			if (hantei3 == true || hantei5 == true) {
+				if(hantei4 == false){
+					Instantiate (S_wash, new Vector3 (25.89f, 10.95f, 14.92f), Quaternion.Euler (0, 90f, 0));
 				S_Open Seikai = refObj.GetComponent<S_Open> ();
 				Seikai.Sound ();
 				hantei4 = true;
+				}
 			}
 		}
 	}
@@ -36,22 +39,32 @@ public class wash_hands : MonoBehaviour {
 			if (col.gameObject.tag == "righthand") {
 				hantei2 = true;
 			}
+		if(hantei == true){
+			if (col.gameObject.tag == "righthand"){
+				hantei3 = true;
+			}
+			if(hantei2 == true){
+				if(col.gameObject.tag == "lefthand"){
+					hantei5 = true;
+				}
+			}
+		}
 		}
 	}
 	public void OnTriggerExit(Collider col){
 		hantei = false;
 		hantei2 = false;
 	}
-		public void OnTriggerEnter(Collider col){
+	/*	public void OnTriggerEnter(Collider col){
 		if(hantei == true){
 		if (col.gameObject.tag == "righthand"){
 			hantei3 = true;
 			}
 		if(hantei2 == true){
 				if(col.gameObject.tag == "lefthand"){
-					hantei3 = true;
+					hantei5 = true;
 				}
 			}
 	}
-		}
+		}*/
 }

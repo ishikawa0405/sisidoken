@@ -13,6 +13,7 @@ public class garbage : MonoBehaviour {
 	public GameObject trash;
 	public GameObject refObj;
 	public GameObject S_Open;
+	public GameObject Hint;
 	GameObject Pre_Seikai;
 	int i = 0;
 	// Use this for initialization
@@ -45,6 +46,9 @@ public class garbage : MonoBehaviour {
 			Pre_Seikai = (GameObject)Instantiate (S_Open, new Vector3 (-6.97f, 2.16f, 86.89f), Quaternion.Euler (0, -185f, 0));
 		}
 		*/
+		}
+		if (M_Timer >= 27f) {
+			Instantiate (Hint, new Vector3 (-7.01f, 2.42f, 87.69f), Quaternion.Euler (13.581f, 210.57f, 3.6465f));
 		}
 	}
 	public void OnTriggerEnter(Collider col){

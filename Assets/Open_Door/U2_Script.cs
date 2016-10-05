@@ -4,8 +4,10 @@ using System.Collections;
 public class U2_Script : MonoBehaviour {
 	public GameObject House_Mondai;
 	public GameObject listen;
+	public GameObject Hint;
 	float M_Timer = 0.0f;
 	bool hantei = false;
+	bool hantei2 = false;
 	GameObject Prehub_mondai;
 	GameObject Prehub_listen;
 	// Use this for initialization
@@ -25,6 +27,10 @@ public class U2_Script : MonoBehaviour {
 		}
 		if (M_Timer >= 6.0f && hantei == true) {
 			GameObject.Destroy(Prehub_listen);
+		}
+		if (M_Timer >= 27f && hantei2 == false) {
+			Instantiate (Hint, new Vector3 (36.63f, 11.2f, 30.36f), Quaternion.Euler (0, -96.449f, 0));
+			hantei2 = true;
 		}
 	}
 }

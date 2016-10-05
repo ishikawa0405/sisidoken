@@ -5,13 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/U-House/U-room/U-room.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/SeenChangPuroto.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/StartSeen.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/U-House/U-Srory/UK-Story.unity
-  - enabled: 1
+  - enabled: 0
     path: Assets/N_Story/N_Story.unity
+  - enabled: 1
+    path: Assets/house_town_mondai/town_mondai/N_RedBuilding.unity

@@ -2,9 +2,9 @@
 using System.Collections;
 
 public class Open_the_Door : MonoBehaviour {
-	public GameObject lefthand;
-	public GameObject righthand;
+	public GameObject refObj;
 	bool hantei = false;
+	bool hantei2 = false;
 	Animator animator;
 	// Use this for initialization
 	void Start () {
@@ -14,8 +14,11 @@ public class Open_the_Door : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Debug.Log (hantei);
-		if (hantei == true) {
+		if (hantei == true && hantei2 == false) {
 			animator.Play ("Open");
+			S_Open Seikai = refObj.GetComponent<S_Open>();
+			Seikai.Sound ();
+			hantei2 = true;
 		}
 	}
 
